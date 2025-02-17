@@ -29,18 +29,18 @@ const authors = [
     homepage: "https://junyaohu.github.io/",
     address_flag: "1,#"
   },
-  {
-    name: "Anya Forger",
-    icon: "./icon/anya.jpg",
-    homepage: "https://www.bilibili.com/video/BV1jv4y1P7Bb",
-    address_flag: "2,#"
-  },
-  {
-    name: "BugCat Capoo",
-    icon: "./icon/capoo.webp",
-    homepage: "https://zh.moegirl.org.cn/%E7%8C%AB%E7%8C%AB%E8%99%AB%E5%92%96%E6%B3%A2",
-    address_flag: "1,*"
-  },
+  // {
+  //   name: "Anya Forger",
+  //   icon: "./icon/anya.jpg",
+  //   homepage: "https://www.bilibili.com/video/BV1jv4y1P7Bb",
+  //   address_flag: "2,#"
+  // },
+  // {
+  //   name: "BugCat Capoo",
+  //   icon: "./icon/capoo.webp",
+  //   homepage: "https://zh.moegirl.org.cn/%E7%8C%AB%E7%8C%AB%E8%99%AB%E5%92%96%E6%B3%A2",
+  //   address_flag: "1,*"
+  // },
 ]
 
 // 地址清单（包含地址名称、头像、主页、地址序号）
