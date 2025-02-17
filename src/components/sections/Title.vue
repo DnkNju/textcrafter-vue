@@ -25,8 +25,8 @@ const btn_color = '#444444'
 const authors = [
   {
     name: "Nikai Du",
-    icon: "./icon/junyaohu.jpg",
-    homepage: "https://junyaohu.github.io/",
+    icon: "./icon/dnk.jpg",
+    // homepage: "https://junyaohu.github.io/",
     address_flag: "1,#"
   },
   // {
@@ -47,16 +47,16 @@ const authors = [
 const addresses = [
   {
     address_flag: "1",
-    name: "Home University",
-    icon: "./icon/home.png",
-    homepage: "https://github.com/hmuniversity"
+    name: "Nanjing University",
+    icon: "./logo.png",
+    homepage: "https://www.nju.edu.cn/"
   },
-  {
-    address_flag: "2",
-    name: "IKUN University",
-    icon: "./icon/ikun.avif",
-    homepage: "https://www.bilibili.com/video/BV178411Y7QB"
-  },
+  // {
+  //   address_flag: "2",
+  //   name: "IKUN University",
+  //   icon: "./icon/ikun.avif",
+  //   homepage: "https://www.bilibili.com/video/BV178411Y7QB"
+  // },
 ]
 
 // 共一和通讯提示
