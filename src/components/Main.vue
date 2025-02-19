@@ -25,17 +25,17 @@ export default {
     BibTeX,
     Carousel,
     Video,
-    ImageSlider,
-    ImageSliderInner,
-    ImageSelector,
-    Echart,
-    Collapse,
+    // ImageSlider,
+    // ImageSliderInner,
+    // ImageSelector,
+    // Echart,
+    // Collapse,
     Table,
-    SeletionForComparison,
+    // SeletionForComparison,
     Comment,
-    Latex,
-    Model3D,
-    GaussianSplats3D
+    // Latex,
+    // Model3D,
+    // GaussianSplats3D
   }
 }
 </script>
