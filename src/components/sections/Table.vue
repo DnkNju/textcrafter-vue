@@ -57,7 +57,7 @@ const tableData = [
         
         <!-- 数据表格 -->
         <el-row justify="center">
-            <el-col :xs="24" :sm="20" :md="16" :lg="12" :xl="12">
+            <el-col :xs="26" :sm="22" :md="18" :lg="14" :xl="14">
 
                 <!-- 卡片 -->
                 <el-card class="card">
@@ -74,7 +74,7 @@ const tableData = [
                             :default-sort="{ prop: 'value_b', order: 'descending' }"
                             scrollbar-always-on
                         >
-                            <el-table-column prop="model" label="Model" width="250" sortable/>
+                            <el-table-column prop="model" label="Model" width="200" sortable/>
                             <el-table-column prop="word_accuracy" label="Word Accuracy" min-width="150" sortable/>
                             <el-table-column prop="ned" label="NED" min-width="120" sortable/>
                             <el-table-column prop="clip_score" label="CLIPScore" min-width="120" sortable/>

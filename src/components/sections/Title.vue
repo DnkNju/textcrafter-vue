@@ -29,18 +29,42 @@ const authors = [
     // homepage: "https://junyaohu.github.io/",
     address_flag: "1,#"
   },
-  // {
-  //   name: "Anya Forger",
-  //   icon: "./icon/anya.jpg",
-  //   homepage: "https://www.bilibili.com/video/BV1jv4y1P7Bb",
-  //   address_flag: "2,#"
-  // },
-  // {
-  //   name: "BugCat Capoo",
-  //   icon: "./icon/capoo.webp",
-  //   homepage: "https://zh.moegirl.org.cn/%E7%8C%AB%E7%8C%AB%E8%99%AB%E5%92%96%E6%B3%A2",
-  //   address_flag: "1,*"
-  // },
+  {
+    name: "Zhennan Chen",
+    // icon: "./icon/anya.jpg",
+    // homepage: "https://www.bilibili.com/video/BV1jv4y1P7Bb",
+    address_flag: "1,#"
+  },
+  {
+    name: "Zhizhou Chen",
+    // icon: "./icon/capoo.webp",
+    // homepage: "https://zh.moegirl.org.cn/%E7%8C%AB%E7%8C%AB%E8%99%AB%E5%92%96%E6%B3%A2",
+    address_flag: "1"
+  },
+  {
+    name: "Gao Shan",
+    // icon: "./icon/capoo.webp",
+    // homepage: "https://zh.moegirl.org.cn/%E7%8C%AB%E7%8C%AB%E8%99%AB%E5%92%96%E6%B3%A2",
+    address_flag: "2"
+  },
+  {
+    name: "Kaikai Jiang",
+    // icon: "./icon/capoo.webp",
+    // homepage: "https://zh.moegirl.org.cn/%E7%8C%AB%E7%8C%AB%E8%99%AB%E5%92%96%E6%B3%A2",
+    address_flag: "1"
+  },
+  {
+    name: "Jian Yang",
+    // icon: "./icon/capoo.webp",
+    // homepage: "https://zh.moegirl.org.cn/%E7%8C%AB%E7%8C%AB%E8%99%AB%E5%92%96%E6%B3%A2",
+    address_flag: "3"
+  },
+  {
+    name: "Ying Tai",
+    // icon: "./icon/capoo.webp",
+    // homepage: "https://zh.moegirl.org.cn/%E7%8C%AB%E7%8C%AB%E8%99%AB%E5%92%96%E6%B3%A2",
+    address_flag: "1,*"
+  },
 ]
 
 // 地址清单（包含地址名称、头像、主页、地址序号）
@@ -51,12 +75,18 @@ const addresses = [
     icon: "./logo.png",
     homepage: "https://www.nju.edu.cn/"
   },
-  // {
-  //   address_flag: "2",
-  //   name: "IKUN University",
-  //   icon: "./icon/ikun.avif",
-  //   homepage: "https://www.bilibili.com/video/BV178411Y7QB"
-  // },
+  {
+    address_flag: "2",
+    name: "CMRI",
+    icon: "./icon/移动.webp",
+    // homepage: "https://www.bilibili.com/video/BV178411Y7QB"
+  },
+  {
+    address_flag: "3",
+    name: "Nanjing University of Science and Technology",
+    icon: "./icon/南理工.webp",
+    homepage: "https://www.njust.edu.cn/"
+  },
 ]
 
 // 共一和通讯提示

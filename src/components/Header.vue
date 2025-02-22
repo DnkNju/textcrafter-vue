@@ -6,7 +6,7 @@ import { HomeFilled, SuccessFilled } from '@element-plus/icons-vue'
 // 个人主页
 const home = {
     name: "My Blog",
-    // link: "https://junyaohu.github.io/",
+    link: "https://nju-pcalab.github.io/",
 }
 
 // 项目主页
@@ -17,9 +17,29 @@ const logo = {
 
 // 右侧更多菜单
 const more_paper = {
-    "ControlNet": {
-        name: "ControlNet - ICCV 2023",
-        link: "https://github.com/lllyasviel/ControlNet",
+    "RAG_Diffusion": {
+        name: "RAG-Diffusion",
+        link: "https://github.com/NJU-PCALab/RAG-Diffusion",
+    },
+    "OpenVid_1M": {
+        name: "OpenVid-1M ICLR2025",
+        link: "https://nju-pcalab.github.io/projects/openvid/",
+    },
+    "InstanceCap": {
+        name: "InstanceCap CVPR2025",
+        link: "https://github.com/NJU-PCALab/InstanceCap",
+    },
+    "STAR": {
+        name: "STAR",
+        link: "https://nju-pcalab.github.io/projects/STAR/",
+    },
+    "AddSR": {
+        name: "AddSR",
+        link: "https://nju-pcalab.github.io/projects/AddSR/",
+    },
+    "STTrack": {
+        name: "STTrack AAAI2025",
+        link: "https://github.com/NJU-PCALab/STTrack?tab=readme-ov-file",
     }
 }
 
@@ -52,7 +72,22 @@ const more_paper = {
         <el-sub-menu index="2">
             <template #title>More</template>
             <el-menu-item index="2-1">
-                <a :href=more_paper.ControlNet.link>{{ more_paper.ControlNet.name }}</a>
+                <a :href=more_paper.RAG_Diffusion.link>{{ more_paper.RAG_Diffusion.name }}</a>
+            </el-menu-item>
+            <el-menu-item index="2-2">
+                <a :href=more_paper.OpenVid_1M.link>{{ more_paper.OpenVid_1M.name }}</a>
+            </el-menu-item>
+            <el-menu-item index="2-3">
+                <a :href=more_paper.InstanceCap.link>{{ more_paper.InstanceCap.name }}</a>
+            </el-menu-item>
+            <el-menu-item index="2-4">
+                <a :href=more_paper.STAR.link>{{ more_paper.STAR.name }}</a>
+            </el-menu-item>
+            <el-menu-item index="2-5">
+                <a :href=more_paper.AddSR.link>{{ more_paper.AddSR.name }}</a>
+            </el-menu-item>
+            <el-menu-item index="2-6">
+                <a :href=more_paper.STTrack.link>{{ more_paper.STTrack.name }}</a>
             </el-menu-item>
         </el-sub-menu>
 
