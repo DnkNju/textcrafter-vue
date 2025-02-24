@@ -33,7 +33,6 @@ export default {
         "./carousel/11.png",
         "./carousel/12.png",
         "./carousel/13.png",
-        "./carousel/14.png",
       ],
     }
   }

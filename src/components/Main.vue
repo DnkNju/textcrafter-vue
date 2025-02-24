@@ -31,8 +31,8 @@ export default {
     // Echart,
     // Collapse,
     Table,
-    // SeletionForComparison,
-    Comment,
+    SeletionForComparison,
+    // Comment,
     // Latex,
     // Model3D,
     // GaussianSplats3D

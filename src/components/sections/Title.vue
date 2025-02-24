@@ -4,7 +4,7 @@ import { ElIcon } from 'element-plus'
 import { Document, Files, MagicStick, Picture, DataAnalysis, Film } from '@element-plus/icons-vue'
 
 // logo地址，没有则置为""即可
-const logo = './logo.png'
+const logo = ''
 
 // 标题
 const title = 'TextCrafter: Accurately Rendering Multiple Texts in Complex Visual Scenes'
@@ -42,22 +42,28 @@ const authors = [
     address_flag: "1"
   },
   {
-    name: "Gao Shan",
+    name: "Shan Gao",
     // icon: "./icon/capoo.webp",
     // homepage: "https://zh.moegirl.org.cn/%E7%8C%AB%E7%8C%AB%E8%99%AB%E5%92%96%E6%B3%A2",
     address_flag: "2"
   },
   {
-    name: "Kaikai Jiang",
+    name: "Xi Chen",
     // icon: "./icon/capoo.webp",
     // homepage: "https://zh.moegirl.org.cn/%E7%8C%AB%E7%8C%AB%E8%99%AB%E5%92%96%E6%B3%A2",
-    address_flag: "1"
+    address_flag: "2"
+  },
+  {
+    name: "Zhengkai Jiang",
+    // icon: "./icon/capoo.webp",
+    // homepage: "https://zh.moegirl.org.cn/%E7%8C%AB%E7%8C%AB%E8%99%AB%E5%92%96%E6%B3%A2",
+    address_flag: "3"
   },
   {
     name: "Jian Yang",
     // icon: "./icon/capoo.webp",
     // homepage: "https://zh.moegirl.org.cn/%E7%8C%AB%E7%8C%AB%E8%99%AB%E5%92%96%E6%B3%A2",
-    address_flag: "3"
+    address_flag: "1"
   },
   {
     name: "Ying Tai",
@@ -83,8 +89,8 @@ const addresses = [
   },
   {
     address_flag: "3",
-    name: "Nanjing University of Science and Technology",
-    icon: "./icon/南理工.webp",
+    name: "HKUST",
+    icon: "./icon/港科大.webp",
     homepage: "https://www.njust.edu.cn/"
   },
 ]
@@ -158,7 +164,7 @@ const buttons = [
     <!-- 最新消息提示 -->
     <el-row justify="center">
       <el-col :span="24">
-        <el-alert title="🔥 This project is still under development." type="success" />
+        <el-alert title="" type="success" />
       </el-col>
     </el-row>
 
