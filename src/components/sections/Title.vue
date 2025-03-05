@@ -27,13 +27,13 @@ const authors = [
     name: "Nikai Du",
     icon: "./icon/dnk.jpg",
     // homepage: "https://junyaohu.github.io/",
-    address_flag: "1,#"
+    address_flag: "1,*"
   },
   {
     name: "Zhennan Chen",
     // icon: "./icon/anya.jpg",
     // homepage: "https://www.bilibili.com/video/BV1jv4y1P7Bb",
-    address_flag: "1,#"
+    address_flag: "1,*"
   },
   {
     name: "Zhizhou Chen",
@@ -69,7 +69,7 @@ const authors = [
     name: "Ying Tai",
     // icon: "./icon/capoo.webp",
     // homepage: "https://zh.moegirl.org.cn/%E7%8C%AB%E7%8C%AB%E8%99%AB%E5%92%96%E6%B3%A2",
-    address_flag: "1,*"
+    address_flag: "1,✉"
   },
 ]
 
@@ -97,7 +97,7 @@ const addresses = [
 
 // 共一和通讯提示
 const con_and_corresponding_author = 
-  "#: Equal Contribution. *: Corresponding Author."
+  "*: Equal Contribution. ✉: Corresponding Author."
 
 // 最新消息
 const news = "🔥 [2024-2-18] This project is still under development."
