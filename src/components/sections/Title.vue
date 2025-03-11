@@ -83,13 +83,13 @@ const addresses = [
   },
   {
     address_flag: "2",
-    name: "CMRI",
+    name: "China Mobile",
     icon: "./icon/移动.webp",
     // homepage: "https://www.bilibili.com/video/BV178411Y7QB"
   },
   {
     address_flag: "3",
-    name: "HKUST",
+    name: "The Hong Kong University of Science and Technology",
     icon: "./icon/港科大.webp",
     homepage: "https://www.njust.edu.cn/"
   },
