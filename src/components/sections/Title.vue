@@ -25,7 +25,7 @@ const btn_color = '#444444'
 const authors = [
   {
     name: "Nikai Du",
-    icon: "./icon/dnk.jpg",
+    // icon: "./icon/dnk.jpg",
     // homepage: "https://junyaohu.github.io/",
     address_flag: "1,*"
   },
@@ -126,12 +126,12 @@ const buttons = [
     // link: "https://github.com/JunyaoHu/academic-project-page-template-vue",
     component: Files,
   },
-  {
-    disabled: false,
-    name: "Demo",
-    // link: "https://junyaohu.github.io/academic-project-page-template-vue",
-    component: MagicStick,
-  },
+  // {
+  //   disabled: false,
+  //   name: "Demo",
+  //   // link: "https://junyaohu.github.io/academic-project-page-template-vue",
+  //   component: MagicStick,
+  // },
   // {
   //   disabled: true,
   //   name: "Poster",
@@ -162,11 +162,11 @@ const buttons = [
   <div>
 
     <!-- 最新消息提示 -->
-    <el-row justify="center">
+    <!-- <el-row justify="center">
       <el-col :span="24">
         <el-alert title="" type="success" />
       </el-col>
-    </el-row>
+    </el-row> -->
 
     <!-- 文章logo -->
     <el-row v-if="logo" justify="center">
@@ -213,9 +213,9 @@ const buttons = [
     </el-row>
 
     <!-- 强调内容 -->
-    <el-row justify="center" class="emphasis" v-for="emphasis in emphases">
+    <!-- <el-row justify="center" class="emphasis" v-for="emphasis in emphases">
         {{ emphasis }}
-    </el-row>
+    </el-row> -->
 
     <!-- 提供引导按钮 -->
     <el-row justify="center" style="margin-bottom: 20px;">

@@ -57,10 +57,10 @@ const more_paper = {
         :ellipsis="false"
     >
         <!-- 个人主页 -->
-        <el-menu-item index="0" >
+        <!-- <el-menu-item index="0" >
             <el-icon :size="20"><HomeFilled /></el-icon>
             <a :href=home.link>{{ home.name }} </a>
-        </el-menu-item>
+        </el-menu-item> -->
         
         <!-- 项目主页 -->
         <el-menu-item index="1">
@@ -124,7 +124,7 @@ const more_paper = {
 <style scoped>
 
 /* 水平导航左右分区 */
-.el-menu--horizontal > .el-menu-item:nth-child(2) {
+.el-menu--horizontal > .el-menu-item:nth-child(1) {
     margin-right: auto;
 }
 

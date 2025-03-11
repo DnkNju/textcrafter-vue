@@ -82,7 +82,7 @@ export default {
                     <el-image :src="comparison1ImageRootPath" style="width: 100%; height: auto;" fit="contain"/>
                   </template>
                 </el-skeleton>
-                <span class="demonstration">input: {{ comparison1ImageRootPath }}</span>
+                <!-- <span class="demonstration">input: {{ comparison1ImageRootPath }}</span> -->
               </div>
             </div>
 
