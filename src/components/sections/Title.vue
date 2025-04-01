@@ -113,6 +113,7 @@ const buttons = [
   {
     disabled: false,
     name: "Paper",
+    link: "https://arxiv.org/abs/2503.23461",
     component: Document,
   },
   // {
@@ -123,7 +124,7 @@ const buttons = [
   {
     disabled: false,
     name: "Code",
-    // link: "https://github.com/JunyaoHu/academic-project-page-template-vue",
+    link: "https://github.com/NJU-PCALab/TextCrafter.git",
     component: Files,
   },
   // {
