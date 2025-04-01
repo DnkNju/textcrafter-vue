@@ -138,17 +138,18 @@ const buttons = [
   //   name: "Poster",
   //   component: Picture,
   // },
-  // {
-  //   disabled: true,
-  //   name: "Slide",
-  //   component: DataAnalysis,
-  // },
   {
     disabled: false,
-    name: "Video",
-    // link: "https://www.bilibili.com/video/BV15XkgYiE73/",
-    component: Film,
+    name: "Dataset",
+    component: DataAnalysis,
+    link: "https://huggingface.co/datasets/dnkdnk/CVTG-2K",
   },
+  // {
+  //   disabled: false,
+  //   name: "Video",
+  //   // link: "https://www.bilibili.com/video/BV15XkgYiE73/",
+  //   component: Film,
+  // },
   // {
   //   disabled: false,
   //   name: "Video (Tutorial)",
